@@ -3,7 +3,7 @@
   with plain string/bytes arguments get a `{Name}Span(ReadOnlySpan<byte> ...)` variant and the
   standard overload delegates through it, mirroring the existing top-level function support.
 - The span fast path is now fully generated end to end: the companion
-  [uniffi-rs fork](https://github.com/yuyoyuppe/uniffi-rs) (`raw-scaffolding` branch) makes
+  [uniffi-rs fork](https://github.com/raycast/uniffi-rs) (`raw-scaffolding` branch) makes
   `#[uniffi::export]` emit the `_raw` scaffolding exports automatically, so enabling
   `high_performance_strings` no longer requires hand-written symbols — but the component **must**
   be built against that fork (e.g. via `[patch.crates-io]`); a library built with upstream

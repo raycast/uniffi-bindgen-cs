@@ -1330,7 +1330,7 @@ dependencies = [
 [[package]]
 name = "uniffi"
 version = "0.31.2"
-source = "git+https://github.com/yuyoyuppe/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
+source = "git+https://github.com/raycast/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
 dependencies = [
  "anyhow",
  "cargo_metadata",
@@ -1678,7 +1678,7 @@ dependencies = [
 [[package]]
 name = "uniffi_bindgen"
 version = "0.31.2"
-source = "git+https://github.com/yuyoyuppe/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
+source = "git+https://github.com/raycast/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
 dependencies = [
  "anyhow",
  "askama 0.14.0",
@@ -1714,7 +1714,7 @@ dependencies = [
 [[package]]
 name = "uniffi_build"
 version = "0.31.2"
-source = "git+https://github.com/yuyoyuppe/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
+source = "git+https://github.com/raycast/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
 dependencies = [
  "anyhow",
  "camino",
@@ -1736,7 +1736,7 @@ dependencies = [
 [[package]]
 name = "uniffi_core"
 version = "0.31.2"
-source = "git+https://github.com/yuyoyuppe/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
+source = "git+https://github.com/raycast/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
 dependencies = [
  "anyhow",
  "bytes",
@@ -1772,7 +1772,7 @@ dependencies = [
 [[package]]
 name = "uniffi_internal_macros"
 version = "0.31.2"
-source = "git+https://github.com/yuyoyuppe/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
+source = "git+https://github.com/raycast/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
 dependencies = [
  "anyhow",
  "indexmap 2.10.0",
@@ -1800,7 +1800,7 @@ dependencies = [
 [[package]]
 name = "uniffi_macros"
 version = "0.31.2"
-source = "git+https://github.com/yuyoyuppe/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
+source = "git+https://github.com/raycast/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
 dependencies = [
  "camino",
  "fs-err",
@@ -1839,7 +1839,7 @@ dependencies = [
 [[package]]
 name = "uniffi_meta"
 version = "0.31.2"
-source = "git+https://github.com/yuyoyuppe/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
+source = "git+https://github.com/raycast/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
 dependencies = [
  "anyhow",
  "siphasher",
@@ -1875,7 +1875,7 @@ dependencies = [
 [[package]]
 name = "uniffi_pipeline"
 version = "0.31.2"
-source = "git+https://github.com/yuyoyuppe/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
+source = "git+https://github.com/raycast/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
 dependencies = [
  "anyhow",
  "heck 0.5.0",
@@ -1887,7 +1887,7 @@ dependencies = [
 [[package]]
 name = "uniffi_testing"
 version = "0.31.2"
-source = "git+https://github.com/yuyoyuppe/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
+source = "git+https://github.com/raycast/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
 dependencies = [
  "anyhow",
  "camino",
@@ -1922,12 +1922,12 @@ dependencies = [
 [[package]]
 name = "uniffi_udl"
 version = "0.31.2"
-source = "git+https://github.com/yuyoyuppe/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
+source = "git+https://github.com/raycast/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
 dependencies = [
  "anyhow",
  "textwrap",
  "uniffi_meta 0.31.2",
- "weedle2 5.0.0 (git+https://github.com/yuyoyuppe/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc)",
+ "weedle2 5.0.0 (git+https://github.com/raycast/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc)",
 ]
 
 [[package]]
@@ -1988,7 +1988,7 @@ dependencies = [
 [[package]]
 name = "weedle2"
 version = "5.0.0"
-source = "git+https://github.com/yuyoyuppe/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
+source = "git+https://github.com/raycast/uniffi-rs?rev=38ba77297cf0b0145a469ef4fc7ae13c78c17ecc#38ba77297cf0b0145a469ef4fc7ae13c78c17ecc"
 dependencies = [
  "nom",
 ]

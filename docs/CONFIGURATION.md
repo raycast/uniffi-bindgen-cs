@@ -76,7 +76,7 @@ uniffi-bindgen-cs path/to/definitions.udl --config path/to/uniffi.toml
     RustBuffer - and async functions and constructors are not covered.
 
     **Requires the component to be built against our
-    [uniffi-rs fork](https://github.com/yuyoyuppe/uniffi-rs)** (`raw-scaffolding` branch, e.g. via
+    [uniffi-rs fork](https://github.com/raycast/uniffi-rs)** (`raw-scaffolding` branch, e.g. via
     `[patch.crates-io]`), whose `#[uniffi::export]` emits the `_raw` scaffolding entry points the
     span overloads call. A library built with upstream uniffi-rs will miss those exports and every
     string/bytes-taking call will throw `EntryPointNotFoundException`. Span eligibility is matched
